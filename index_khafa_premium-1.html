@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>خفه | اكتشف المعلومة قبل الجميع</title>
+<meta name="description" content="خفه — كرة القدم، الحيوانات، الحقائق والمعلومات المثيرة في فيديوهات قصيرة وممتعة.">
+<style>
+/* ===== KHaffa Premium UI ===== */
+::selection{background:var(--gold);color:#111}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(120deg,transparent 0 45%,#ffc21a05 50%,transparent 55%);z-index:-1}
+nav a{position:relative}
+nav a:after{content:"";position:absolute;right:0;bottom:-8px;width:0;height:2px;background:var(--gold);transition:.25s}
+nav a:hover:after{width:100%}
+.card,.social a,.channel,.heroVisual{will-change:transform}
+.card{position:relative}
+.card:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent,#ffc21a0b,transparent);transform:translateX(100%);transition:.6s;pointer-events:none}
+.card:hover:before{transform:translateX(-100%)}
+.mobileMenu{display:none;background:transparent;border:1px solid var(--line);color:var(--white);width:44px;height:44px;border-radius:12px;font-size:21px;cursor:pointer}
+.mobilePanel{display:none}
+.fadeIn{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.fadeIn.show{opacity:1;transform:none}
+@media(max-width:850px){
+  .mobileMenu{display:block}
+  .navbtn{display:none}
+  nav{display:none}
+  .mobilePanel{position:absolute;top:78px;right:4%;left:4%;padding:12px;background:#0b1019f5;border:1px solid var(--line);border-radius:18px;box-shadow:0 20px 60px #000b}
+  .mobilePanel.open{display:grid}
+  .mobilePanel a{padding:13px 15px;border-radius:10px;font-weight:800}
+  .mobilePanel a:hover{background:#ffffff08;color:var(--gold)}
+}
+@media(max-width:480px){.mobilePanel{top:68px}}
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap');
+:root{--bg:#05070d;--panel:#0d121c;--panel2:#111827;--gold:#ffc21a;--gold2:#ff8a00;--white:#f8fafc;--muted:#9ca8ba;--line:#ffffff12;--green:#20e6a0}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Cairo,Arial,sans-serif;background:radial-gradient(circle at 80% -10%,#382a0c 0,transparent 28%),radial-gradient(circle at 5% 25%,#10243b 0,transparent 24%),var(--bg);color:var(--white);line-height:1.8}
+a{text-decoration:none;color:inherit}.container{width:min(1180px,92%);margin:auto}
+header{position:sticky;top:0;z-index:100;background:#05070de8;backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.brand img{width:58px;height:58px;border-radius:50%;object-fit:cover;filter:drop-shadow(0 5px 15px #000)}
+nav{display:flex;gap:25px;font-weight:800;color:#dce3ed}nav a{transition:.2s}nav a:hover{color:var(--gold)}
+.navbtn{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#171006;padding:10px 17px;border-radius:12px;font-weight:900}
+.hero{min-height:650px;padding:85px 0 75px;display:grid;grid-template-columns:1.08fr .92fr;gap:50px;align-items:center}
+.kicker{display:inline-flex;align-items:center;gap:8px;padding:7px 13px;border:1px solid #ffc21a44;background:#ffc21a0d;border-radius:999px;color:var(--gold);font-weight:900}
+h1{font-size:clamp(44px,6vw,78px);line-height:1.1;margin:20px 0}h1 span{color:var(--gold)}
+.hero p{color:var(--muted);font-size:19px;max-width:650px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.primary,.secondary{padding:13px 20px;border-radius:13px;font-weight:900}.primary{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#160f04}.secondary{border:1px solid var(--line);background:#ffffff07}
+.heroVisual{height:430px;border:1px solid #ffffff12;border-radius:34px;background:linear-gradient(145deg,#141b27,#080b12);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;box-shadow:0 35px 100px #000b}
+.heroVisual:before,.heroVisual:after{content:"";position:absolute;border-radius:50%;border:1px solid #ffc21a22}.heroVisual:before{width:430px;height:430px}.heroVisual:after{width:320px;height:320px}
+.heroVisual img{width:300px;height:300px;border-radius:50%;object-fit:cover;z-index:2;box-shadow:0 20px 60px #000;animation:float 4s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-10px) rotate(2deg)}}
+.section{padding:78px 0}.dark{background:#080d15;border-block:1px solid var(--line)}
+.head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:28px}.head h2{font-size:34px}.head p{color:var(--muted);margin-top:3px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:linear-gradient(145deg,#111827,#0b1019);border:1px solid var(--line);border-radius:21px;overflow:hidden;transition:.25s;box-shadow:0 15px 45px #0003}.card:hover{transform:translateY(-7px);border-color:#ffc21a55}
+.cover{height:190px;display:flex;align-items:center;justify-content:center;font-size:75px;background:radial-gradient(circle at 50% 20%,#263b5e,#111927 55%,#0a0e16);position:relative}.cover small{position:absolute;bottom:12px;right:14px;font-size:12px;padding:4px 9px;background:#0009;border-radius:20px;color:#fff}
+.body{padding:19px}.tag{color:var(--gold);font-size:12px;font-weight:900}.body h3{font-size:20px;margin:5px 0}.body p{color:var(--muted);font-size:14px}
+.channel{display:flex;align-items:center;justify-content:space-between;gap:25px;flex-wrap:wrap;padding:26px;border:1px solid #ffc21a25;background:linear-gradient(135deg,#17140d,#0e141e);border-radius:23px}
+.channelInfo{display:flex;align-items:center;gap:18px}.channelInfo img{width:85px;height:85px;border-radius:50%;object-fit:cover}.channelInfo h3{font-size:25px}.channelInfo p{color:var(--muted)}
+.social{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.social a{padding:18px;text-align:center;border:1px solid var(--line);background:#ffffff06;border-radius:15px;font-weight:800;transition:.2s}.social a:hover{border-color:#ffc21a55;transform:translateY(-3px)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.about p{color:var(--muted);font-size:17px;margin:12px 0 22px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.stat{padding:22px 10px;text-align:center;background:#101722;border:1px solid var(--line);border-radius:16px}.stat b{display:block;font-size:28px;color:var(--gold)}
+footer{border-top:1px solid var(--line);padding:32px 0;color:var(--muted)}.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:15px}
+@media(max-width:850px){nav{display:none}.hero{grid-template-columns:1fr;padding-top:55px}.heroVisual{height:320px}.heroVisual img{width:220px;height:220px}.cards{grid-template-columns:1fr}.social{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}}
+@media(max-width:480px){.nav{height:68px}.brand img{width:50px;height:50px}.social{grid-template-columns:1fr}.hero{padding-bottom:40px}.section{padding:55px 0}}
+</style>
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="#home"><img src="khaffa-logo.png" alt="شعار قناة خفه"></a>
+<nav><a href="#home">الرئيسية</a><a href="#football">كرة القدم</a><a href="#animals">الحيوانات</a><a href="#videos">الفيديوهات</a><a href="#channel">YouTube</a><a href="#about">عن خفه</a></nav>
+<a class="navbtn" href="https://www.youtube.com/@khafahiTV" target="_blank">▶ شاهد القناة</a>
+</div></header>
+
+<main>
+<section class="hero container" id="home">
+<div class="fadeIn">
+<div>
+<span class="kicker">✨ محتوى سريع • معلومات مذهلة</span>
+<h1>اكتشف ما لم تكن تعرفه مع <span>خفه</span></h1>
+<p>من أسرار كرة القدم إلى أغرب الحقائق عن الحيوانات والعالم. محتوى عربي قصير، بصري وممتع — مصمم ليشد انتباهك من أول ثانية.</p>
+<div class="actions"><a class="primary" href="https://www.youtube.com/@khafahiTV" target="_blank">▶ الدخول إلى YouTube</a><a class="secondary" href="#videos">استكشف الفيديوهات ↓</a></div>
+</div>
+<div class="heroVisual"><img src="khaffa-logo.png" alt="شعار خفه"></div>
+</section>
+
+<section class="section container" id="football">
+<div class="fadeIn">
+<div class="head"><div><h2>⚽ عالم كرة القدم</h2><p>حقائق وأرقام وقصص كروية مثيرة</p></div></div>
+<div class="cards">
+<article class="card"><div class="cover">🏆<small>أرقام قياسية</small></div><div class="body"><span class="tag">كرة القدم</span><h3>أرقام ستجعلك تقول: مستحيل!</h3><p>تعرف على أرقام صنعتها أسماء أسطورية في عالم الكرة.</p></div></article>
+<article class="card"><div class="cover">🥅<small>كأس العالم</small></div><div class="body"><span class="tag">حقائق</span><h3>معلومات قد تسمعها لأول مرة</h3><p>حقائق سريعة عن البطولات والنجوم واللحظات التاريخية.</p></div></article>
+<article class="card"><div class="cover">🌟<small>نجوم</small></div><div class="body"><span class="tag">أساطير</span><h3>قصص وأرقام نجوم الكرة</h3><p>معلومات مختصرة عن أبرز الأسماء في المستديرة.</p></div></article>
+</div>
+</section>
+
+<section class="section dark" id="animals">
+<div class="fadeIn"><div class="container">
+<div class="head"><div><h2>🦁 عالم الحيوانات</h2><p>غرائب وقدرات مذهلة في الطبيعة</p></div></div>
+<div class="cards">
+<article class="card"><div class="cover">🦁<small>حيوانات</small></div><div class="body"><span class="tag">معلومة</span><h3>أسرار مذهلة عن الأسد</h3><p>اكتشف قدرات وسلوك ملك الغابة.</p></div></article>
+<article class="card"><div class="cover">🐋<small>المحيطات</small></div><div class="body"><span class="tag">طبيعة</span><h3>عمالقة البحار</h3><p>حقائق عن أكبر الكائنات البحرية على كوكبنا.</p></div></article>
+<article class="card"><div class="cover">🦅<small>قدرات</small></div><div class="body"><span class="tag">حقائق</span><h3>قدرات خارقة في عالم الحيوان</h3><p>أشياء تفعلها بعض الحيوانات ولن تتوقعها.</p></div></article>
+</div></div></section>
+
+<section class="section container" id="videos">
+<div class="fadeIn">
+<div class="head"><div><h2>🎬 فيديوهات خفه</h2><p>شاهد أحدث محتوى على قناتنا</p></div><a class="primary" href="https://www.youtube.com/@khafahiTV" target="_blank">كل الفيديوهات ↗</a></div>
+<div class="cards">
+<article class="card"><div class="cover">🎥<small>فيديو جديد</small></div><div class="body"><span class="tag">YouTube</span><h3>5 معلومات كروية مذهلة</h3><p>شاهد الفيديو والمزيد من المحتوى عبر قناة خفه.</p></div></article>
+<article class="card"><div class="cover">🔥<small>مميز</small></div><div class="body"><span class="tag">YouTube</span><h3>أرقام قياسية لا تصدق</h3><p>معلومات رياضية بأسلوب سريع وممتع.</p></div></article>
+<article class="card"><div class="cover">🤯<small>معلومة اليوم</small></div><div class="body"><span class="tag">YouTube</span><h3>معلومة ستفاجئك</h3><p>اكتشف المزيد من الفيديوهات على القناة.</p></div></article>
+</div>
+</section>
+
+<section class="section dark" id="channel">
+<div class="fadeIn"><div class="container">
+<div class="channel">
+<div class="channelInfo"><img src="khaffa-logo.png" alt="شعار خفه"><div><h3>خفه</h3><p>@khafahiTV — القناة الرسمية على YouTube</p></div></div>
+<a class="primary" href="https://www.youtube.com/@khafahiTV" target="_blank">فتح قناة YouTube ↗</a>
+</div>
+</div></section>
+
+<section class="section container">
+<div class="fadeIn">
+<div class="head"><div><h2>📱 تابع خفه</h2><p>روابط التواصل الاجتماعي</p></div></div>
+<div class="social"><a href="https://www.youtube.com/@khafahiTV" target="_blank">▶️ YouTube</a><a href="#">🎵 TikTok</a><a href="#">📸 Instagram</a><a href="#">✈️ Telegram</a></div>
+</section>
+
+<section class="section container" id="about">
+<div class="fadeIn"><div class="about">
+<div><span class="kicker">عن القناة</span><h2 style="font-size:38px;margin-top:15px">المعلومة بطريقة ممتعة</h2><p>خفه قناة عربية تقدم معلومات وحقائق قصيرة في كرة القدم والحيوانات والمنوعات، مع أسلوب بصري سريع ومناسب لعشاق المحتوى القصير.</p><a class="primary" href="https://www.youtube.com/@khafahiTV" target="_blank">اشترك في القناة ↗</a></div>
+<div class="stats"><div class="stat"><b>⚽</b>كرة القدم</div><div class="stat"><b>🦁</b>حيوانات</div><div class="stat"><b>✨</b>منوعات</div></div>
+</div></section>
+</main>
+
+<footer><div class="container foot"><span>© 2026 خفه</span><span>الموقع الرسمي لقناة خفه</span></div></footer>
+<script>
+function toggleMenu(){
+  const panel=document.getElementById('mobilePanel');
+  const btn=document.querySelector('.mobileMenu');
+  const open=panel.classList.toggle('open');
+  btn.setAttribute('aria-expanded',open);
+}
+document.querySelectorAll('.mobilePanel a').forEach(a=>a.addEventListener('click',()=>{
+  document.getElementById('mobilePanel').classList.remove('open');
+  document.querySelector('.mobileMenu').setAttribute('aria-expanded','false');
+}));
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')});
+},{threshold:.12});
+document.querySelectorAll('.fadeIn').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
